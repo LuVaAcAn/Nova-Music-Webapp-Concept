@@ -23,6 +23,14 @@ The **Nova Music Webapp** aims to provide a seamless experience for users to dis
 - **PostgreSQL** 🗃️: Database for storing track and station data.
 - **GitHub** 🐙: Version control and collaboration.
 
+## 🖼 Images
+- **Landing Page**
+![image](https://github.com/user-attachments/assets/7f421518-f73d-4f05-a078-8138a39cfc90)
+- **Log In Page**
+![image](https://github.com/user-attachments/assets/495d3890-7307-49b2-9891-b9711a7fa1d8)
+- **Dashboard Page**
+![image](https://github.com/user-attachments/assets/ec095288-8c9e-4dc9-a25c-b8290a44edb3)
+
 ## 🔧 Setup Instructions
 
 To run this project locally, follow these steps:
