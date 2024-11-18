@@ -1,0 +1,129 @@
+.landing {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+}
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 60vh;
+    padding: 0;
+    background: linear-gradient(131deg, rgba(2,0,36,1) 0%, rgba(210,44,207,1) 0%, rgba(116,23,230,1) 100%);
+    align-items: center;
+    justify-content: center;
+}
+.landing-subcontainer{
+    display: inherit;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    width: 65%;
+}
+.landing-image {
+    display: flex;
+    height: 100%;
+    padding: 0px 70px 0px 70px;
+    overflow: hidden;
+    align-items: flex-end;
+}
+.mobile-phone {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.mobile-phone img {
+    width: 100%;
+    background: #fff;
+    padding: 50px 10px 0px 10px;
+    margin-bottom: -1.5rem;
+    border-radius: 40px 40px 0px 0px;
+}
+#mobile-cam {
+    width: 50px;
+    height: 6px;
+    background: #000;
+    position: absolute;
+    transform: translateY(25px);
+    border-radius: 20px;
+}
+.landing-firstimpression{
+    color: #fff;
+}
+.landing-firstimpression h1{
+    font-size: 50px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+.landing-firstimpression p{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+.landing-firstimpression button{
+    padding: 15px 28px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+.landing-firstimpression button:hover{
+    transform: scale(1.05);
+    border: solid 3px #000;
+}
+.landing-content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.landing-porqueescoger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0 60px 0;
+}
+.landing-porqueescoger h1{
+    margin-bottom: 40px;
+}
+.landing-porqueescoger ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style-type: none;
+}
+.landing-porqueescoger ul li{
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.porqueescoger-img{
+    height: 140px;
+    width: 140px;
+    background-size: contain;
+}
+#canciones-fav{
+    background-image: url(https://i.scdn.co/image/ab671c3d0000f430678067184805befd38aa0f57);
+}
+#salas-fav{
+    background-image: url(//i.scdn.co/image/ab671c3d0000f430a6f822749d5c25c32ee31d66);
+}
+#podcast-fav{
+    background-image: url(https://i.scdn.co/image/ab671c3d0000f430eb43023b5332389f5094530d);
+}
+#calidad-fav{
+    background-image: url(https://i.scdn.co/image/ab671c3d0000f4309430062bc28461dc8fbde6bc);
+}
+p.porqueescoger-subtitle {
+    font-weight: 600;
+    font-size: 21px;
+}

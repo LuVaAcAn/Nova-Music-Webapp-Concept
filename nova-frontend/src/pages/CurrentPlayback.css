@@ -1,0 +1,27 @@
+.current-playback-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .track-info {
+    margin-top: 20px;
+  }
+  
+  .track-info h3 {
+    font-size: 24px;
+  }
+  
+  .track-info p {
+    font-size: 18px;
+  }
+  
+  .track-info a {
+    font-size: 18px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .track-info a:hover {
+    text-decoration: underline;
+  }
+  
